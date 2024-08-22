@@ -1,0 +1,62 @@
+﻿html, body {
+    background-image: url('https://getwallpapers.com/wallpaper/small-retina/4/1/f/9673.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.85); 
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.card-header h3 {
+    text-align: center;
+    color: #007bff;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.form-control {
+    height: 50px;
+    border-radius: 0;
+}
+
+.login_btn {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+    .login_btn:hover {
+        background-color: #0056b3;
+    }
+
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+}
+
+    .card-footer a {
+        color: #007bff;
+    }
+
+        .card-footer a:hover {
+            color: #0056b3;
+        }
