@@ -21,9 +21,14 @@ namespace AplicacionWebNominaISLinea.Controllers
 {
     public class AccesoController : Controller
     {
-            //Clase o entidad para conectamrema ala base de datos y objetos de la misma 
-             
-            //get: acceso
+        //Clase o entidad para conectamrema ala base de datos y objetos de la misma 
+
+        //get: acceso
+
+        public ActionResult Index()
+        {
+            return View();
+        }
 
         public ActionResult Autenticar()
         {
@@ -69,7 +74,7 @@ namespace AplicacionWebNominaISLinea.Controllers
                 if (oEmpleado.id == 0 )
                 {
                     ViewData["mensaje"] = "Usuario no encontrado";
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Error", "Home");
                 }
 
                 else
